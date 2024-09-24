@@ -2,7 +2,9 @@
 
 [Fork do projeto ldurans](https://github.com/ldurans/izing.open.io)
 
-# Izing com painel SaaS
+# Izing com painel SaaS - Hub NotificaMe(facebook e instagram) 
+
+Preço especial por canal NotificaMe chamar whatsapp (48) 99941-6725
 
 Um sistema para gestão de atendimento multicanais centralizado.
 
@@ -67,6 +69,10 @@ Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualq
 ```bash
 WHAZING
 ```
+
+#### Curtiu? Apoie o projeto!! Com sua doação, será possível continuar com as atualizações. Segue QR code (PIX)  
+
+[<img src="donate.jpg" height="160" width="180"/>](donate.jpg)
 
 ## Consultoria particular
 

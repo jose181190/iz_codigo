@@ -16,7 +16,7 @@
 sudo su root
 ```
 
-2. Setar Time Zone para Bogota e atualizar sistema
+2. Setar Time Zone para São Paulo e atualizar sistema
 
 ```bash
 timedatectl set-timezone America/Bogota && apt update && apt upgrade -y
@@ -73,13 +73,13 @@ apt autoremove -y
 9. Instalar POSTGRESQL no Docker
 
 ```bash
-docker run --name postgresql -e POSTGRES_USER=izing -e POSTGRES_PASSWORD=123@mudar -e TZ="America/Sao_Paulo" -p 5432:5432 --restart=always -v /data:/var/lib/postgresql/data -d postgres
+docker run --name postgresql -e POSTGRES_USER=izing -e POSTGRES_PASSWORD=123@mudar -e TZ="America/Bogota" -p 5432:5432 --restart=always -v /data:/var/lib/postgresql/data -d postgres
 ```
 
 10. Instalar Redis no Docker
 
 ```bash
-docker run --name redis-izing -e TZ="America/Sao_Paulo" -p 6379:6379 --restart=always -d redis:latest redis-server --appendonly yes --requirepass "123@mudar"
+docker run --name redis-izing -e TZ="America/Bogota" -p 6379:6379 --restart=always -d redis:latest redis-server --appendonly yes --requirepass "123@mudar"
 ```
 
 
