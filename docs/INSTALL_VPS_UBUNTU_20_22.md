@@ -16,7 +16,7 @@
 sudo su root
 ```
 
-2. Setar Time Zone para São Paulo e atualizar sistema
+2. Setar Time Zone para Bogota e atualizar sistema
 
 ```bash
 timedatectl set-timezone America/Bogota && apt update && apt upgrade -y
